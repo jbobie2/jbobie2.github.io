@@ -15,6 +15,3 @@ For my next plot, I decided to visualize the number of Bigfoot sightings over th
 <iframe src="bar_chart2.html" width="600" height="600"></iframe>
 
 ---
-
-[Data](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv)  
-[Analysis](https://github.com/jbobie2/jbobie2.github.io/blob/main/Workspace.ipynb)
