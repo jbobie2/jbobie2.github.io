@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Bigfoot Analysis"
+permalink: /bigfoot/
+---
 # Bigfoot Sightings: The Analysis
 
 ## Sightings by State
