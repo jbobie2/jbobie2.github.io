@@ -1,0 +1,59 @@
+---
+layout: default
+title: "Inside the 2024 Cubs Season: A Data Dive"
+author: "Jbobie2"
+permalink: /projects/cubs2024/
+---
+
+# Inside the 2024 Cubs Season: A Data Dive  
+_By Jbobie2_
+
+## 🧩 Exploring Game Day Patterns with Data
+
+This interactive article invites fans and analysts alike to explore game-day conditions for the 2024 Chicago Cubs using data from [Retrosheet](https://www.retrosheet.org/). 
+
+<iframe src="https://your-iframe-link.com" width="100%" height="500px"></iframe>
+
+---
+
+## 📊 Contextual Visualizations
+
+**1. Cubs Attendance from 2019–2024**  
+A look into how attendance changed due to COVID and recent performance.  
+*(Include chart or image here)*
+
+**2. Temperature Trends Across Seasons**  
+Are Cubs games getting hotter? This chart explores shifting temperature patterns.  
+*(Include chart or image here)*
+
+---
+
+## 🧠 Connecting the Dots
+
+Over the past several years, factors like weather, time of day, and post-COVID attendance recovery have shaped the Cubs' home game atmosphere. This article explores:
+
+- Which temperatures draw the biggest crowds?
+- Are night games better attended than day games?
+- Did attendance bounce back post-2020?
+
+We found that warm days brought more fans out to Wrigley, and night games often had smaller but steadier turnout. COVID left a dent in attendance, but trends seem to be rising back to 2019 levels.
+
+---
+
+## 🗂 Data Sources and Tools
+
+- 2024 game-day data: [Retrosheet](https://www.retrosheet.org/)
+- Historical seasons (2019–2023): [Retrosheet Seasons Archive](https://www.retrosheet.org/gamelogs/index.html)
+- Visuals made in: Altair, Jupyter Notebooks
+- Source notebook: [View analysis here](https://github.com/jbobie2/your-repo-name/blob/main/your-notebook.ipynb)
+
+---
+
+## 📎 How to Explore
+
+Use the interactive chart above to filter by:
+- Temperature
+- Attendance
+- Time of Day
+
+Hover for details or compare trends across games.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-34a3a70077b364f4f298a8740e1e6434"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "count", "scale": {"scheme": "reds"}, "type": "quantitative"}, "x": {"field": "count", "title": "Number of Sightings", "type": "quantitative"}, "y": {"field": "state", "sort": "-x", "title": "State", "type": "nominal"}}, "height": 600, "title": "Bigfoot Sightings by State", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-34a3a70077b364f4f298a8740e1e6434": [{"state": "Washington", "count": 563}, {"state": "California", "count": 402}, {"state": "Florida", "count": 292}, {"state": "Ohio", "count": 276}, {"state": "Oregon", "count": 241}, {"state": "Illinois", "count": 232}, {"state": "Texas", "count": 215}, {"state": "Michigan", "count": 208}, {"state": "Missouri", "count": 141}, {"state": "Georgia", "count": 121}, {"state": "Colorado", "count": 121}, {"state": "Kentucky", "count": 112}, {"state": "Pennsylvania", "count": 111}, {"state": "New York", "count": 102}, {"state": "West Virginia", "count": 100}, {"state": "Arkansas", "count": 95}, {"state": "Alabama", "count": 91}, {"state": "Tennessee", "count": 91}, {"state": "Oklahoma", "count": 85}, {"state": "Arizona", "count": 84}, {"state": "Idaho", "count": 81}, {"state": "Wisconsin", "count": 80}, {"state": "North Carolina", "count": 79}, {"state": "Indiana", "count": 75}, {"state": "Virginia", "count": 72}, {"state": "Minnesota", "count": 69}, {"state": "New Jersey", "count": 63}, {"state": "Utah", "count": 57}, {"state": "Iowa", "count": 56}, {"state": "Montana", "count": 45}, {"state": "Kansas", "count": 42}, {"state": "Louisiana", "count": 40}, {"state": "New Mexico", "count": 40}, {"state": "South Carolina", "count": 38}, {"state": "Maryland", "count": 34}, {"state": "Wyoming", "count": 27}, {"state": "Massachusetts", "count": 27}, {"state": "Mississippi", "count": 21}, {"state": "Alaska", "count": 20}, {"state": "Connecticut", "count": 15}, {"state": "Nebraska", "count": 15}, {"state": "Maine", "count": 14}, {"state": "New Hampshire", "count": 13}, {"state": "South Dakota", "count": 11}, {"state": "Vermont", "count": 9}, {"state": "Nevada", "count": 7}, {"state": "Rhode Island", "count": 5}, {"state": "Delaware", "count": 5}, {"state": "North Dakota", "count": 4}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

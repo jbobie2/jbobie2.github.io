@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+  Updates for JPN Fall 2024
+  FALL2024ID43948
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bigfoot Analysis">
+  <meta property="og:description" content="I am definitely not a corgi!">
+  <meta property="og:image" content="https://media.tenor.com/8RcIoWTKYR4AAAAe/scuze-corgi.png">
+
+  <title>Bigfoot Analysis</title>
+  <meta name="description" content="I am definitely not a corgi!">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>IS445 Jekyll Template</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/cubs2024/">Inside the 2024 Cubs Season: A Data Dive</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>Bigfoot Analysis</b></h1>
+
+<p class="post-metadata text-muted">
+  15 April 2025 -  
+  <b>2 mins read time</b>
+
+  <br></p>
+
+<h1 id="bigfoot-sightings-the-analysis">Bigfoot Sightings: The Analysis</h1>
+
+<h2 id="sightings-by-state">Sightings by State</h2>
+
+<p>The bar chart showcases the number of Bigfoot sightings reported across the states in the U.S. On the y-axis, the states are displayed while on the x-axis, the number of sightings is placed. The chart is created in descending order, where the states that have the most sightings are on top. The chart colors indicate the number of sightings based on the darker tone bars. To create this bar chart, I decided to group the dataset by the state column and organize the number of sightings per state. I went with a bar chart because it makes it simpler to compare each state and its sightings. I selected the “reds” color scale to indicate the number of sightings, as it provides a clear distinction between lower and higher counts visually. The state values were used directly for the column. This chart helps reveal patterns in Bigfoot sightings, highlighting states with higher numbers of those reports, which suggest either more sightings of “Bigfoot” or a greater interest in Bigfoot-related topics, leading to more potential “sightings.”</p>
+
+<iframe src="/charts/bar_chart1.html" width="600" height="500" frameborder="0"></iframe>
+
+<hr />
+
+<h2 id="sightings-by-year">Sightings by Year</h2>
+
+<p>For my next plot, I decided to visualize the number of Bigfoot sightings over the years, using a bar chart. On the x-axis, it represents the year of the sighting, and on the y-axis, it represents the count of sightings for each year. The chart takes the sightings by year, providing an overview of how the number of sightings has changed over time. I chose a color scale that varies based on the count of sightings. The color gradient uses the “blues” color scheme, which can visually emphasize the higher counts with darker shades similar to those of the first chart. I aggregated the dataset by year, counting the number of sightings for each year. I figured this would be an easier way to display the sightings in an easy-to-read manner. For interactivity, I added hover tooltips to the bars, so when hovering over any of the chart’s bars, the year and the count of sightings for that year will be displayed. This allows for a more detailed viewing of each data point. Adding this interactivity enhances the user’s experience by providing contextual information directly on the plot.</p>
+
+<iframe src="/charts/bar_chart2.html" width="600" height="500" frameborder="0"></iframe>
+
+<hr />
+
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>A. P. Corgi</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:username@domain.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/jnaiman"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/your_username"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/your_channel_name"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a>
+
+</div>
+
+  Theme by <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> and <a href="https://github.com/4dcu-be/4dcu.be">4dcu.be</a>.
+
+  
+<!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+-->
+
+</footer>
+
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+<!--
+end of checks! JPN
+-->
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
